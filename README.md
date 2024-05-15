@@ -1,32 +1,56 @@
-# Portfolio Website
+# Flask Weather App
 
-
-
-## Description
-This is my portfolio website, showcasing my skills and projects with a clean, modern design. It's built using HTML, CSS, and JavaScript and is fully responsive and user-friendly, providing visitors with an easy way to explore my work and get in touch.
+This is a simple weather application built with Flask, allowing users to register, login, and check the weather for various cities.
 
 ## Features
-- **Responsive Design**: Ensures optimal viewing experience across various devices and screen sizes.
-- **Navigation**: Smooth scrolling navigation with anchor links for easy access to different sections.
-- **About Me Section**: Brief introduction about myself and my skills.
-- **Skills Section**: Displays my technical and professional skills with visually appealing icons.
-- **Projects Section**: Highlights some of my key projects with descriptions and links.
-- **Contact Section**: Provides contact information and links to social profiles for easy communication.
+
+- **User Authentication**: Users can register, login, and logout securely.
+- **Weather Information**: Users can enter the name of a city and get the current weather conditions.
 
 ## Technologies Used
-- HTML
-- CSS
-- JavaScript
-- Visual Studio Code
-- Git
 
+- **Flask**: Python web framework used for backend development.
+- **SQLite**: Lightweight database management system for storing user information.
+- **WTForms**: Form validation and rendering library for Flask.
+- **bcrypt**: Password hashing library for securely storing passwords.
+- **OpenWeatherMap API**: External API used to retrieve weather information based on user input.
+- **HTML/CSS/JavaScript**: Frontend technologies for user interface and interactivity.
+
+## Installation
+
+1. Clone this repository:https://github.com/ThamizhpriyanM/test_api/tree/main
+
+2. Navigate to the project directory:
+
+
+3. Install the required dependencies:
+
+
+4. Run the Flask application:
+
+
+5. Open a web browser and go to `http://127.0.0.1:5000` to access the application.
 
 ## Usage
-1. Clone this repository.
-2. Open `index.html` in your web browser to view the website.
-3. Explore the different sections to learn more about me and my projects.
-4. Feel free to contact me via email or social media for inquiries or collaborations.
+
+- **Registration**: Click on the "Register" link to create a new account. Enter a unique username and a strong password.
+- **Login**: After registration, you can login with your credentials.
+- **Weather Check**: Once logged in, you will be redirected to the weather page. Enter the name of a city and click "Get Weather" to see the current weather conditions.
+- **Logout**: Click on the "Logout" link to log out of your account.
+## Files
+### Python (main.py file)
+
+- **main.py**: Contains the Flask application and routes.
+
+### HTML (templates folder)
+
+- **home.html**: Homepage of the application.
+- **login.html**: Login page.
+- **dashboard.html**: Dashboard page after login.
+- **register.html**: Registration page.
+- **weather.html**: Weather page to display weather information.
 
 
-## Author
-Developed by Thamizh Priyan © 2024
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
